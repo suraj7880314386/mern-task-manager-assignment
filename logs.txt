@@ -1,0 +1,12 @@
+[2025-12-03 10:00:01] [INFO] System Startup: Initiating Task Manager Backend...
+[2025-12-03 10:00:02] [INFO] Database: Connecting to MongoDB Atlas...
+[2025-12-03 10:00:04] [SUCCESS] Database: MongoDB Connected Successfully
+[2025-12-03 10:00:04] [INFO] Server: Server started on port 5000
+[2025-12-03 10:05:12] [INFO] API Request: POST /api/auth/register - New user created
+[2025-12-03 10:05:15] [SUCCESS] Auth: JWT Token generated for user
+[2025-12-03 10:06:00] [INFO] API Request: GET /api/tasks - Fetched user tasks
+[2025-12-03 10:07:30] [INFO] API Request: POST /api/tasks - New Task 'Complete Frontend Assignment' added
+[2025-12-03 10:08:45] [INFO] API Request: PUT /api/tasks/:id - Task marked as 'Completed'
+[2025-12-03 10:15:20] [INFO] API Request: DELETE /api/tasks/:id - Task deleted successfully
+[2025-12-03 10:20:00] [INFO] Action: Data Export initiated (CSV Generated)
+[2025-12-03 10:25:10] [INFO] Auth: User logged out
